@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator2X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="butt" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XyG-UZ-1oH">
+                                <rect key="frame" x="32" y="412" width="350" height="435"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="QBm-vc-zq5">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="80.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8g-8A-DwV" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="257" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="H12-gT-mPW"/>
+                                                    <constraint firstAttribute="height" constant="80" id="Yk6-Os-wrY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-Le-cmG" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="270" y="0.0" width="80" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="cew-5P-xcY"/>
+                                                    <constraint firstAttribute="height" constant="80" id="z9d-nF-k0Y"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="7wE-kx-WeT"/>
+                                            <constraint firstAttribute="width" constant="350" id="k0w-S7-Top"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Cwh-3W-QB5">
+                                        <rect key="frame" x="0.0" y="88.5" width="350" height="80.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zz5-HD-Yw7" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Mxr-Gw-NLL"/>
+                                                    <constraint firstAttribute="width" constant="80" id="nOh-Vz-sng"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3h-q0-SQe" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="91" y="0.0" width="77.5" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Iu6-Hc-Idu"/>
+                                                    <constraint firstAttribute="width" constant="80" id="px3-Jy-Z4H"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irZ-C3-u0q" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="181.5" y="0.0" width="78" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="AtP-Jb-2we"/>
+                                                    <constraint firstAttribute="width" constant="80" id="cq7-Jg-eCK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDe-ta-Pfi" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="272.5" y="0.0" width="77.5" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="ZBC-iW-x8z"/>
+                                                    <constraint firstAttribute="height" constant="80" id="thg-Pi-d96"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="qAl-KS-bYR"/>
+                                            <constraint firstAttribute="width" constant="350" id="vrA-Ee-xnq"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="oT0-rJ-6HK">
+                                        <rect key="frame" x="0.0" y="177" width="350" height="81"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBr-Oo-KAr" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="81"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="bQt-TW-Enw"/>
+                                                    <constraint firstAttribute="width" constant="80" id="z0d-hK-YBg"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gh-nH-y5T" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="91" y="0.0" width="77.5" height="81"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="hN7-dY-7lt"/>
+                                                    <constraint firstAttribute="height" constant="80" id="nqk-yE-dx5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pu-Wy-Zcz" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="181.5" y="0.0" width="78" height="81"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Hh8-d6-qMR"/>
+                                                    <constraint firstAttribute="height" constant="80" id="pOz-ro-gBY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfn-1p-xaw" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="272.5" y="0.0" width="77.5" height="81"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="9uU-BK-fna"/>
+                                                    <constraint firstAttribute="width" constant="80" id="deP-JL-xw0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="Mth-Vb-dtT"/>
+                                            <constraint firstAttribute="height" constant="80" id="kY3-q7-nVb"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="um3-Xw-Fnb">
+                                        <rect key="frame" x="0.0" y="266" width="350" height="80.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pda-QA-JFv" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Zoa-aq-q3o"/>
+                                                    <constraint firstAttribute="height" constant="80" id="qPw-2f-eR3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pic-58-NMF" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="91" y="0.0" width="77.5" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Wz7-en-NjH"/>
+                                                    <constraint firstAttribute="width" constant="80" id="q3Q-vJ-GXZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uE-Bo-BPg" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="181.5" y="0.0" width="78" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="gdj-Qq-3Rg"/>
+                                                    <constraint firstAttribute="height" constant="80" id="syc-cx-a9S"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAT-AH-QmT" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="272.5" y="0.0" width="77.5" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="blD-Tk-Ktd"/>
+                                                    <constraint firstAttribute="height" constant="80" id="krH-5R-xow"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="3kI-3y-vl0"/>
+                                            <constraint firstAttribute="height" constant="80" id="Fc7-0B-Drd"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="MZn-A0-hwG">
+                                        <rect key="frame" x="0.0" y="354.5" width="350" height="80.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXO-mb-xfY" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="164" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Dt3-l5-Whc"/>
+                                                    <constraint firstAttribute="width" constant="160" id="XY1-IF-4zU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqJ-jW-UBs" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="177" y="0.0" width="80" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Zif-d5-lrM"/>
+                                                    <constraint firstAttribute="height" constant="80" id="mSE-IM-x5t"/>
+                                                    <constraint firstAttribute="width" constant="80" id="vjj-zq-5WT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zr-hY-R4C" customClass="RoundButton" customModule="Calculator2X" customModuleProvider="target">
+                                                <rect key="frame" x="270" y="0.0" width="80" height="80.5"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Dtb-M3-Axx"/>
+                                                    <constraint firstAttribute="height" constant="80" id="Enj-2D-ets"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="xXO-mb-xfY" firstAttribute="centerX" secondItem="MZn-A0-hwG" secondAttribute="centerX" constant="80" id="22Z-fV-u9l"/>
+                                            <constraint firstAttribute="height" constant="80" id="9jc-kR-Ltt"/>
+                                            <constraint firstAttribute="width" constant="300" id="HbF-rw-vQS"/>
+                                            <constraint firstItem="EqJ-jW-UBs" firstAttribute="centerX" secondItem="MZn-A0-hwG" secondAttribute="centerX" id="XGq-tY-DF5"/>
+                                            <constraint firstItem="xXO-mb-xfY" firstAttribute="centerX" secondItem="MZn-A0-hwG" secondAttribute="centerX" constant="80" id="ezp-bG-OFX"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="oeU-os-N2x"/>
+                                    <constraint firstAttribute="height" constant="435" id="xKH-Mq-rkc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="XyG-UZ-1oH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2d8-k9-NNY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XyG-UZ-1oH" secondAttribute="bottom" constant="15" id="Ptg-Z9-th9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="2Gh-nH-y5T">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="7Pu-Wy-Zcz">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="7zr-hY-R4C">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="8uE-Bo-BPg">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="EqJ-jW-UBs">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="KDe-ta-Pfi">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="Pda-QA-JFv">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="SAT-AH-QmT">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="WBr-Oo-KAr">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="Zz5-HD-Yw7">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="bfn-1p-xaw">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="c8g-8A-DwV">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="d3h-q0-SQe">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="hRo-Le-cmG">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="irZ-C3-u0q">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="pic-58-NMF">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+        <designable name="xXO-mb-xfY">
+            <size key="intrinsicContentSize" width="30" height="53"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

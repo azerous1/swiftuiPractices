@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57442D06-D671-4A87-8962-3EDACC54F339"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B061690B-B840-4D8F-B01C-D00986ED565C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmojiArtDemo/EmojiArtDocument .swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "EmojiArtDocument"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B061690B-B840-4D8F-B01C-D00986ED565C - d3e0add3c857a04a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of EmojiArtDemo.EmojiArtDocument.(emojiArt in _CBBC532BE4F2377315E5FD9D3CA89363) : EmojiArtDemo.EmojiArt"
+                  moduleName = "EmojiArtDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yichiz/Documents/Project%20/EmojiArtDemo/EmojiArtDemo/EmojiArtDocument%20.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  uuid = "B061690B-B840-4D8F-B01C-D00986ED565C - f7e433a70e15dd73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmojiArtDemo.EmojiArtDocument.init() -&gt; EmojiArtDemo.EmojiArtDocument"
+                  moduleName = "EmojiArtDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yichiz/Documents/Project%20/EmojiArtDemo/EmojiArtDemo/EmojiArtDocument%20.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

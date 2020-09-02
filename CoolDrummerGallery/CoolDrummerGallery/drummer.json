@@ -1,0 +1,44 @@
+[
+    {
+        "id":1001,
+        "name":"Dave Weckl",
+        "imageName":"DW1",
+        "description":"Dave Weckl has amazed the world with a great display of musicianship in some of the most significant recordings of jazz-fusion of our time. A drummer by trade but a musician by heart, Dave is more than a technically gifted player. His groove and overall tasteful and colorful playing have made him one of the most influential drummers in the world.",
+        "category":"Jazz"
+    },
+    {
+        "id":1002,
+        "name":"Mike Portnoy",
+        "imageName":"MP1",
+        "description":"Michael Stephen Portnoy (born April 20, 1967) is an American musician and songwriter who is the current drummer for the Neal Morse Band and supergroups Flying Colors, Transatlantic, The Winery Dogs, Metal Allegiance and Sons of Apollo. Portnoy is primarily known as the former drummer, backing vocalist, and a co-founder of the progressive metal band Dream Theater. In September 2010, Portnoy announced his departure from Dream Theater after 25 years, with Mike Mangini taking his place as drummer of the band. Since his departure, Portnoy has formed a variety of new bands and projects, including Adrenaline Mob, Flying Colors, The Winery Dogs, Sons of Apollo, Metal Allegiance, and BPMD.",
+        "category":"Progresssive rock"
+    },
+    {
+        "id":1003,
+        "name":"Bennie Rogers",
+        "imageName":"BR1",
+        "description":"Born on January 8 of 1960, Dave Weckl was fortunate enough to grow in a family very appreciative of music. Dave’s parents were fond of listening to different styles of music. His mom was always singing something around the house and his dad played the piano for fun. Dave Weckl’s first musical instrument was actually the guitar. He started playing it when he was 6 years old. Playing guitar wasn’t in the cards for Dave since he couldn’t quite get the hang of it, which made him lose interest fairly quickly.",
+        "category":"Hip-hop"
+    },
+    {
+        "id":1004,
+        "name":"Antonio Sanchez",
+        "imageName":"AS1",
+        "description":"Antonio Sánchez (born November 1, 1971) is a Mexican-American jazz drummer and composer best known for his work with jazz guitarist Pat Metheny.[1] In 2014, his popularity increased when he composed an original film score for Birdman, directed by Alejandro G. Iñárritu.[2] The soundtrack album was released on October 14, 2014.[3] The score earned him a nomination for the Golden Globe Award for Best Original Score[4] and BAFTA Award for Best Film Music; he won the Critics' Choice Movie Award for Best Score and Satellite Award for Best Original Score.",
+        "category":"Jazz"
+    },
+    {
+        "id":1005,
+        "name":"Tony Royster",
+        "imageName":"TR1",
+        "description":"Born Anthony Royster Jr. on September 9 of 1984, “Tony” Royster Jr. was raised in Hinesville, Georgia, United States. Son of guitar player Anthony Royster and of drummer Gayle Royster, and brother to Calvin Royster, Tony grew up in a family very appreciative of music. Tony Royster Jr. was already showing a natural predisposition towards music in his early years, rocking his body the very instant he listened to a song or watched a music video.",
+        "category":"Hip-hop"
+    },
+    {
+        "id":1006,
+        "name":"Gavin Harrison",
+        "imageName":"GH1",
+        "description":"Gavin Richard Harrison[1] (born 28 May 1963)[2] is an English musician. He is best known for playing with the progressive rock bands Porcupine Tree and King Crimson. Harrison's drumming has received many awards from music publications and earned praise from other musicians.",
+        "category":"Progressive rock"
+    }
+]
