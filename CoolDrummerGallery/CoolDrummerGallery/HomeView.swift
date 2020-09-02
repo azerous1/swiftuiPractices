@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    var categories:[String : [Drummer]] {
+    var categories :  [String : [Drummer]] {
         .init(
             grouping: drummerData,
             by: {$0.category.rawValue}
@@ -17,7 +17,13 @@ struct HomeView: View {
     }
     
     var body: some View {
-        Text("chops")
+        ScrollView(.vertical) {
+            List {
+                ForEach(categories.keys.sorted(), id: \.self) {key in
+                    DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
+                }
+            }
+        }
     }
 }
 
@@ -26,3 +32,8 @@ struct ContentView_Previews: PreviewProvider {
         HomeView()
     }
 }
+
+     //List (categories, id: \categories.keys.sorted()) { key in
+//DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
+
+        //}

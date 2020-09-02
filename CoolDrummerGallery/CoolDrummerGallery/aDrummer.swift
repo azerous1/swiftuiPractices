@@ -19,10 +19,6 @@ struct aDrummer: View {
                 .frame(width: 300, height: 170)
                 .cornerRadius(10)
                 .shadow(radius: 10)
-                .onTapGesture(count: 1, perform: {
-                    print("here is data")
-                    print(drummerData)
-                })
             VStack(alignment: .leading, spacing: -5){ // negative number works 
                 Text(drummer.name)
                     .foregroundColor(.primary)
