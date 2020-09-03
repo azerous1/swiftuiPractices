@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-// MARK: Codable protocol doesn't work here. Check it later
+// Drummer type
 struct Drummer: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
@@ -21,9 +21,8 @@ struct Drummer: Hashable, Codable, Identifiable {
         case progRock = "Progressive rock"
         case jazz = "Jazz"
     }
-    
-    // MARK: Oh fuck it's a godamn typo
  
+    // MARK:Required for implementing Codable
     func encode(to: Encoder) {}
     
     init(from: Decoder, id: Int, name: String, imageName: String, category: Category, description: String) {

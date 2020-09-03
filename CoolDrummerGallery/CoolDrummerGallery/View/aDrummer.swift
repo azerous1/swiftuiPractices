@@ -7,7 +7,10 @@
 
 import SwiftUI
 
+ // Return a few for one drummer 
 struct aDrummer: View {
+    
+    // data of a drummer
     var drummer : Drummer
     
     var body: some View {
@@ -28,7 +31,7 @@ struct aDrummer: View {
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.leading)
-                    .lineLimit(10)
+                    .lineLimit(5)
                     .frame(height: 180)
             }
         }

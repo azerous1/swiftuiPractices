@@ -72,12 +72,8 @@
 			children = (
 				2052613524FC41F7009F1146 /* AppDelegate.swift */,
 				2052613724FC41F7009F1146 /* SceneDelegate.swift */,
-				2052613924FC41F7009F1146 /* HomeView.swift */,
-				20008A7C24FF27F5004813FD /* drummerDetail.swift */,
-				20008A7A24FF18D8004813FD /* DrummerRow.swift */,
-				2052615324FCB6B3009F1146 /* aDrummer.swift */,
-				2052614D24FCB3ED009F1146 /* Drummer.swift */,
-				2052614B24FC483E009F1146 /* data.swift */,
+				20E8A05B2500311C001F2C77 /* View */,
+				20E8A05A2500310F001F2C77 /* Model */,
 				2052614F24FCB59C009F1146 /* drummer.json */,
 				2052613B24FC41F9009F1146 /* Assets.xcassets */,
 				2052614924FC42EF009F1146 /* File */,
@@ -94,6 +90,26 @@
 				2052613E24FC41F9009F1146 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20E8A05A2500310F001F2C77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2052614D24FCB3ED009F1146 /* Drummer.swift */,
+				2052614B24FC483E009F1146 /* data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20E8A05B2500311C001F2C77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2052613924FC41F7009F1146 /* HomeView.swift */,
+				20008A7C24FF27F5004813FD /* drummerDetail.swift */,
+				20008A7A24FF18D8004813FD /* DrummerRow.swift */,
+				2052615324FCB6B3009F1146 /* aDrummer.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

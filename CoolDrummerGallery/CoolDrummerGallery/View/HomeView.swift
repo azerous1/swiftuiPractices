@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Main view of the applicaiton 
 struct HomeView: View {
     
     var categories :  [String : [Drummer]] {
@@ -18,11 +19,7 @@ struct HomeView: View {
     
     var body: some View {
         ScrollView(.vertical) {
-            List {
-                ForEach(categories.keys.sorted(), id: \.self) {key in
-                    DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
-                }
-            }
+            DrummerRow(categoryName: "Jazz", drummers: drummerData)
         }
     }
 }
@@ -37,3 +34,10 @@ struct ContentView_Previews: PreviewProvider {
 //DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
 
         //}
+
+
+//List {
+//    ForEach(categories.keys.sorted(), id: \.self) {key in
+//        DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
+//    }
+//}
