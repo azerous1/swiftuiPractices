@@ -18,9 +18,16 @@ struct HomeView: View {
     }
     
     var body: some View {
-        ScrollView(.vertical) {
-            DrummerRow(categoryName: "Jazz", drummers: drummerData)
+        NavigationView { // this needs to be at the top level at most of the time 
+            List {
+                // id: \. is for specifying a key path
+                ForEach(categories.keys.sorted(), id: \.self) {key in
+                    DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
+                }
+            }.padding(.top, 20)
+            .navigationBarTitle("Drummer Gallery")
         }
+        
     }
 }
 
@@ -30,14 +37,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-     //List (categories, id: \categories.keys.sorted()) { key in
-//DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
-
-        //}
-
-
-//List {
-//    ForEach(categories.keys.sorted(), id: \.self) {key in
-//        DrummerRow(categoryName: "\(key)", drummers: self.categories[key]!)
-//    }
-//}

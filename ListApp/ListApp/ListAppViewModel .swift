@@ -15,7 +15,6 @@ struct Task : Identifiable {
     var priortiy : Double
 }
 
-
 class TaskStore : ObservableObject {
     @Published var tasks = [Task]()
 }

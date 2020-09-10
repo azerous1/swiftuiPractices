@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205EE1872501C73A00F2ADF9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 205EE1862501C73A00F2ADF9 /* SDWebImageSwiftUI */; };
+		2080E8262501BEFA00B8E80E /* singlePhotoView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080E8252501BEFA00B8E80E /* singlePhotoView .swift */; };
 		20E8A06925006EFB001F2C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E8A06825006EFB001F2C77 /* AppDelegate.swift */; };
 		20E8A06B25006EFB001F2C77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E8A06A25006EFB001F2C77 /* SceneDelegate.swift */; };
 		20E8A06D25006EFB001F2C77 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E8A06C25006EFB001F2C77 /* HomeView.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2080E8252501BEFA00B8E80E /* singlePhotoView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "singlePhotoView .swift"; sourceTree = "<group>"; };
 		20E8A06525006EFB001F2C77 /* UnsplashPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E8A06825006EFB001F2C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20E8A06A25006EFB001F2C77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205EE1872501C73A00F2ADF9 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				20E8A06C25006EFB001F2C77 /* HomeView.swift */,
+				2080E8252501BEFA00B8E80E /* singlePhotoView .swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +176,9 @@
 			dependencies = (
 			);
 			name = UnsplashPhotoViewer;
+			packageProductDependencies = (
+				205EE1862501C73A00F2ADF9 /* SDWebImageSwiftUI */,
+			);
 			productName = UnsplashPhotoViewer;
 			productReference = 20E8A06525006EFB001F2C77 /* UnsplashPhotoViewer.app */;
 			productType = "com.apple.product-type.application";
@@ -243,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 20E8A05C25006EFB001F2C77;
+			packageReferences = (
+				205EE1852501C73A00F2ADF9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 20E8A06625006EFB001F2C77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,6 +301,7 @@
 				20E8A06925006EFB001F2C77 /* AppDelegate.swift in Sources */,
 				20E8A06B25006EFB001F2C77 /* SceneDelegate.swift in Sources */,
 				20E8A06D25006EFB001F2C77 /* HomeView.swift in Sources */,
+				2080E8262501BEFA00B8E80E /* singlePhotoView .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +471,7 @@
 				DEVELOPMENT_TEAM = 6269P8GMDZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UnsplashPhotoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +492,7 @@
 				DEVELOPMENT_TEAM = 6269P8GMDZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UnsplashPhotoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		205EE1852501C73A00F2ADF9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		205EE1862501C73A00F2ADF9 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 205EE1852501C73A00F2ADF9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20E8A05D25006EFB001F2C77 /* Project object */;
 }

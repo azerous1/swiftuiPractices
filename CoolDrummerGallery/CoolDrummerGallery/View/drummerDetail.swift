@@ -31,7 +31,7 @@ struct drummerDetail: View {
                     .padding(.leading).padding(.bottom)
                     Spacer() // why adding spacer will render the text move to the left?
                 }
-            }.listRowInsets(EdgeInsets())
+            }.listRowInsets(EdgeInsets()).padding(.top, -30)
             VStack(alignment: .leading) {
                 Text(drummer.description)
                 .lineSpacing(10)
@@ -43,10 +43,7 @@ struct drummerDetail: View {
                     Spacer()
                 }
             }.padding(.top)
-        }
-        .edgesIgnoringSafeArea(.top
-        )
-    }
+        }    }
 }
 
 struct moreInfoButton : View {

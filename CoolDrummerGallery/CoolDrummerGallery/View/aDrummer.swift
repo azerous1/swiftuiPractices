@@ -26,14 +26,21 @@ struct aDrummer: View {
                 Text(drummer.name)
                     .foregroundColor(.primary)
                     .font(.headline)
-                    .padding(.bottom, 15)
                 Text(drummer.description)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.leading)
                     .lineLimit(5)
-                    .frame(height: 180)
+                    .frame(height: 100)
+                    .padding(.top, 15)
             }
         }
     }
 }
+ 
+ struct aDrummer_Previews: PreviewProvider {
+    static var previews: some View {
+        aDrummer(drummer: drummerData[0])
+    }
+ }
+ 

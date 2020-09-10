@@ -25,7 +25,6 @@ class UnsplashData: ObservableObject {
     func loadData() {
         let key = "rs9onS18cRHPfjTUTzcY4FbciPu04AIqz0TiWw3fiNo"
         let url = "https://api.unsplash.com/photos/random/?count=30&client_id=\(key)"
-        print(url)
         let session = URLSession(configuration: .default)
         
         session.dataTask(with: URL(string: url)!) { (data, _, error) in
@@ -33,8 +32,6 @@ class UnsplashData: ObservableObject {
                 print("URLSession dataTask error:", error ?? "nil")
                 return
             }
-            
-            print(data)
             do {
                 
                 let json = try JSONDecoder().decode([Photo].self, from: data)
@@ -49,6 +46,4 @@ class UnsplashData: ObservableObject {
             }
         }.resume() 
     }
-    
-    
 }
