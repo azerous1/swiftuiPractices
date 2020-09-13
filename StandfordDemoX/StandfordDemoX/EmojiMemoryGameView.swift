@@ -15,11 +15,11 @@ struct EmojiMemoryGameView: View  {
         VStack {
             Grid (viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
-                    withAnimation(.linear(duration: cardFlipAnimationDuration)) {
-                        viewModel.choose(card: card)
+                    withAnimation(.linear(duration: self.cardFlipAnimationDuration)) {
+                        self.viewModel.choose(card: card)
                     }
                 }
-                .padding(paddingSize)
+                .padding(self.paddingSize)
         // -- this is almost like a method inside a view
         // property: var inside a struct or class
             }.padding()
@@ -30,7 +30,7 @@ struct EmojiMemoryGameView: View  {
                     self.viewModel.resetGame()
                 }
             }, label: {
-                Text("New Game"). // can be internationalize
+                Text("New Game") // can be internationalize
             })
         }
     }

@@ -19,10 +19,13 @@ struct HomeView: View {
     // Contains all the view elements
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(alignment: .leading) {
                 List {
                     ForEach(self.Data.data) { pattern in
-                       patternView(pattern: pattern)
+                        NavigationLink(destination: practiceDetailView(pattern: pattern)) {
+
+                            patternView(pattern: pattern)
+                            }
                     }
                 }
             }.navigationBarTitle("PracticeIt")

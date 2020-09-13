@@ -32,8 +32,7 @@ struct DrummerRow: View {
                             aDrummer(drummer: drummer)
                             .frame(width: 300)
                             .padding(.trailing, 30)
-                        }.
-                        
+                        }
                     }
                 }
             }

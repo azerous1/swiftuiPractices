@@ -19,6 +19,8 @@
 		2067A156250AA92F00371139 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067A155250AA92F00371139 /* Pattern.swift */; };
 		2067A158250AA93300371139 /* PracticeAppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067A157250AA93300371139 /* PracticeAppVM.swift */; };
 		2067A15A250AA96400371139 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067A159250AA96400371139 /* HomeView.swift */; };
+		20FE4838250C317000960E02 /* Cardifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE4837250C317000960E02 /* Cardifty.swift */; };
+		20FE483A250C400600960E02 /* practiceDetailView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE4839250C400600960E02 /* practiceDetailView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		2067A155250AA92F00371139 /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = ../../PracticeIt/PracticeIt/Pattern.swift; sourceTree = "<group>"; };
 		2067A157250AA93300371139 /* PracticeAppVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PracticeAppVM.swift; path = ../../PracticeIt/PracticeIt/PracticeAppVM.swift; sourceTree = "<group>"; };
 		2067A159250AA96400371139 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../PracticeIt/PracticeIt/HomeView.swift; sourceTree = "<group>"; };
+		20FE4837250C317000960E02 /* Cardifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardifty.swift; sourceTree = "<group>"; };
+		20FE4839250C400600960E02 /* practiceDetailView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "practiceDetailView .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +115,10 @@
 				2067A122250AA85100371139 /* SceneDelegate.swift */,
 				2067A159250AA96400371139 /* HomeView.swift */,
 				2067A153250AA92500371139 /* patternView.swift */,
+				20FE4839250C400600960E02 /* practiceDetailView .swift */,
 				2067A155250AA92F00371139 /* Pattern.swift */,
 				2067A157250AA93300371139 /* PracticeAppVM.swift */,
+				20FE4837250C317000960E02 /* Cardifty.swift */,
 				2067A129250AA85500371139 /* Assets.xcassets */,
 				2067A12E250AA85500371139 /* LaunchScreen.storyboard */,
 				2067A131250AA85500371139 /* Info.plist */,
@@ -282,10 +288,12 @@
 				2067A156250AA92F00371139 /* Pattern.swift in Sources */,
 				2067A15A250AA96400371139 /* HomeView.swift in Sources */,
 				2067A158250AA93300371139 /* PracticeAppVM.swift in Sources */,
+				20FE483A250C400600960E02 /* practiceDetailView .swift in Sources */,
 				2067A121250AA85100371139 /* AppDelegate.swift in Sources */,
 				2067A126250AA85100371139 /* PracticeIt2.xcdatamodeld in Sources */,
 				2067A123250AA85100371139 /* SceneDelegate.swift in Sources */,
 				2067A154250AA92500371139 /* patternView.swift in Sources */,
+				20FE4838250C317000960E02 /* Cardifty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
