@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207FAC1F250FE2B400A6145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC1E250FE2B400A6145B /* AppDelegate.swift */; };
+		207FAC21250FE2B400A6145B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC20250FE2B400A6145B /* SceneDelegate.swift */; };
+		207FAC24250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC22250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld */; };
+		207FAC26250FE2B400A6145B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC25250FE2B400A6145B /* ContentView.swift */; };
+		207FAC28250FE2B500A6145B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC27250FE2B500A6145B /* Assets.xcassets */; };
+		207FAC2B250FE2B500A6145B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC2A250FE2B500A6145B /* Preview Assets.xcassets */; };
+		207FAC2E250FE2B500A6145B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC2C250FE2B500A6145B /* LaunchScreen.storyboard */; };
+		207FAC39250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC38250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift */; };
+		207FAC44250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC43250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207FAC35250FE2B500A6145B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207FAC13250FE2B400A6145B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207FAC1A250FE2B400A6145B;
+			remoteInfo = EnrouteCoreDataDemo;
+		};
+		207FAC40250FE2B500A6145B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207FAC13250FE2B400A6145B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207FAC1A250FE2B400A6145B;
+			remoteInfo = EnrouteCoreDataDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207FAC1B250FE2B400A6145B /* EnrouteCoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnrouteCoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FAC1E250FE2B400A6145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		207FAC20250FE2B400A6145B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		207FAC23250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnrouteCoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
+		207FAC25250FE2B400A6145B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		207FAC27250FE2B500A6145B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207FAC2A250FE2B500A6145B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		207FAC2D250FE2B500A6145B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207FAC2F250FE2B500A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FAC34250FE2B500A6145B /* EnrouteCoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnrouteCoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FAC38250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteCoreDataDemoTests.swift; sourceTree = "<group>"; };
+		207FAC3A250FE2B500A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FAC3F250FE2B500A6145B /* EnrouteCoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnrouteCoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FAC43250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteCoreDataDemoUITests.swift; sourceTree = "<group>"; };
+		207FAC45250FE2B500A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207FAC18250FE2B400A6145B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FAC31250FE2B500A6145B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FAC3C250FE2B500A6145B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207FAC12250FE2B400A6145B = {
+			isa = PBXGroup;
+			children = (
+				207FAC1D250FE2B400A6145B /* EnrouteCoreDataDemo */,
+				207FAC37250FE2B500A6145B /* EnrouteCoreDataDemoTests */,
+				207FAC42250FE2B500A6145B /* EnrouteCoreDataDemoUITests */,
+				207FAC1C250FE2B400A6145B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207FAC1C250FE2B400A6145B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207FAC1B250FE2B400A6145B /* EnrouteCoreDataDemo.app */,
+				207FAC34250FE2B500A6145B /* EnrouteCoreDataDemoTests.xctest */,
+				207FAC3F250FE2B500A6145B /* EnrouteCoreDataDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207FAC1D250FE2B400A6145B /* EnrouteCoreDataDemo */ = {
+			isa = PBXGroup;
+			children = (
+				207FAC1E250FE2B400A6145B /* AppDelegate.swift */,
+				207FAC20250FE2B400A6145B /* SceneDelegate.swift */,
+				207FAC25250FE2B400A6145B /* ContentView.swift */,
+				207FAC27250FE2B500A6145B /* Assets.xcassets */,
+				207FAC2C250FE2B500A6145B /* LaunchScreen.storyboard */,
+				207FAC2F250FE2B500A6145B /* Info.plist */,
+				207FAC22250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld */,
+				207FAC29250FE2B500A6145B /* Preview Content */,
+			);
+			path = EnrouteCoreDataDemo;
+			sourceTree = "<group>";
+		};
+		207FAC29250FE2B500A6145B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				207FAC2A250FE2B500A6145B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		207FAC37250FE2B500A6145B /* EnrouteCoreDataDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				207FAC38250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift */,
+				207FAC3A250FE2B500A6145B /* Info.plist */,
+			);
+			path = EnrouteCoreDataDemoTests;
+			sourceTree = "<group>";
+		};
+		207FAC42250FE2B500A6145B /* EnrouteCoreDataDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				207FAC43250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift */,
+				207FAC45250FE2B500A6145B /* Info.plist */,
+			);
+			path = EnrouteCoreDataDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207FAC48250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemo" */;
+			buildPhases = (
+				207FAC17250FE2B400A6145B /* Sources */,
+				207FAC18250FE2B400A6145B /* Frameworks */,
+				207FAC19250FE2B400A6145B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnrouteCoreDataDemo;
+			productName = EnrouteCoreDataDemo;
+			productReference = 207FAC1B250FE2B400A6145B /* EnrouteCoreDataDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207FAC33250FE2B500A6145B /* EnrouteCoreDataDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207FAC4B250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoTests" */;
+			buildPhases = (
+				207FAC30250FE2B500A6145B /* Sources */,
+				207FAC31250FE2B500A6145B /* Frameworks */,
+				207FAC32250FE2B500A6145B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207FAC36250FE2B500A6145B /* PBXTargetDependency */,
+			);
+			name = EnrouteCoreDataDemoTests;
+			productName = EnrouteCoreDataDemoTests;
+			productReference = 207FAC34250FE2B500A6145B /* EnrouteCoreDataDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		207FAC3E250FE2B500A6145B /* EnrouteCoreDataDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207FAC4E250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoUITests" */;
+			buildPhases = (
+				207FAC3B250FE2B500A6145B /* Sources */,
+				207FAC3C250FE2B500A6145B /* Frameworks */,
+				207FAC3D250FE2B500A6145B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207FAC41250FE2B500A6145B /* PBXTargetDependency */,
+			);
+			name = EnrouteCoreDataDemoUITests;
+			productName = EnrouteCoreDataDemoUITests;
+			productReference = 207FAC3F250FE2B500A6145B /* EnrouteCoreDataDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207FAC13250FE2B400A6145B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Yichi Zhang ";
+				TargetAttributes = {
+					207FAC1A250FE2B400A6145B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					207FAC33250FE2B500A6145B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 207FAC1A250FE2B400A6145B;
+					};
+					207FAC3E250FE2B500A6145B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 207FAC1A250FE2B400A6145B;
+					};
+				};
+			};
+			buildConfigurationList = 207FAC16250FE2B400A6145B /* Build configuration list for PBXProject "EnrouteCoreDataDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207FAC12250FE2B400A6145B;
+			productRefGroup = 207FAC1C250FE2B400A6145B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */,
+				207FAC33250FE2B500A6145B /* EnrouteCoreDataDemoTests */,
+				207FAC3E250FE2B500A6145B /* EnrouteCoreDataDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207FAC19250FE2B400A6145B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FAC2E250FE2B500A6145B /* LaunchScreen.storyboard in Resources */,
+				207FAC2B250FE2B500A6145B /* Preview Assets.xcassets in Resources */,
+				207FAC28250FE2B500A6145B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FAC32250FE2B500A6145B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FAC3D250FE2B500A6145B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207FAC17250FE2B400A6145B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FAC1F250FE2B400A6145B /* AppDelegate.swift in Sources */,
+				207FAC21250FE2B400A6145B /* SceneDelegate.swift in Sources */,
+				207FAC26250FE2B400A6145B /* ContentView.swift in Sources */,
+				207FAC24250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FAC30250FE2B500A6145B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FAC39250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FAC3B250FE2B500A6145B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FAC44250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207FAC36250FE2B500A6145B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */;
+			targetProxy = 207FAC35250FE2B500A6145B /* PBXContainerItemProxy */;
+		};
+		207FAC41250FE2B500A6145B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */;
+			targetProxy = 207FAC40250FE2B500A6145B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207FAC2C250FE2B500A6145B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207FAC2D250FE2B500A6145B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207FAC46250FE2B500A6145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207FAC47250FE2B500A6145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207FAC49250FE2B500A6145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EnrouteCoreDataDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6269P8GMDZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EnrouteCoreDataDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yichi.com.EnrouteCoreDataDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		207FAC4A250FE2B500A6145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EnrouteCoreDataDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6269P8GMDZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EnrouteCoreDataDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yichi.com.EnrouteCoreDataDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		207FAC4C250FE2B500A6145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6269P8GMDZ;
+				INFOPLIST_FILE = EnrouteCoreDataDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yichi.com.EnrouteCoreDataDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnrouteCoreDataDemo.app/EnrouteCoreDataDemo";
+			};
+			name = Debug;
+		};
+		207FAC4D250FE2B500A6145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6269P8GMDZ;
+				INFOPLIST_FILE = EnrouteCoreDataDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yichi.com.EnrouteCoreDataDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnrouteCoreDataDemo.app/EnrouteCoreDataDemo";
+			};
+			name = Release;
+		};
+		207FAC4F250FE2B500A6145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6269P8GMDZ;
+				INFOPLIST_FILE = EnrouteCoreDataDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yichi.com.EnrouteCoreDataDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnrouteCoreDataDemo;
+			};
+			name = Debug;
+		};
+		207FAC50250FE2B500A6145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6269P8GMDZ;
+				INFOPLIST_FILE = EnrouteCoreDataDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yichi.com.EnrouteCoreDataDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnrouteCoreDataDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207FAC16250FE2B400A6145B /* Build configuration list for PBXProject "EnrouteCoreDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207FAC46250FE2B500A6145B /* Debug */,
+				207FAC47250FE2B500A6145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207FAC48250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207FAC49250FE2B500A6145B /* Debug */,
+				207FAC4A250FE2B500A6145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207FAC4B250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207FAC4C250FE2B500A6145B /* Debug */,
+				207FAC4D250FE2B500A6145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207FAC4E250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207FAC4F250FE2B500A6145B /* Debug */,
+				207FAC50250FE2B500A6145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		207FAC22250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				207FAC23250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodel */,
+			);
+			currentVersion = 207FAC23250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodel */;
+			path = EnrouteCoreDataDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 207FAC13250FE2B400A6145B /* Project object */;
+}
