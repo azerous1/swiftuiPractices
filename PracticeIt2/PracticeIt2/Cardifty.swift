@@ -9,8 +9,12 @@
 import Foundation
 import SwiftUI
 
+// A ViewModifier in which return a card-like view
+// by putting the content from whoever calls this VM on top of a blue, rounded-corner card
+
 struct Cardify : ViewModifier {
     
+    // create a card view by putting the given content on top of a Rounded Retangle 
     func body(content: Content) -> some View {
         ZStack {
             Group {

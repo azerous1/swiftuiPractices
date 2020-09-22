@@ -7,13 +7,18 @@
 //
 
 import Foundation
+import SwiftUI
+import CoreData
 
-class practiceData : ObservableObject {
+class userOptionData : ObservableObject {
     
-    @Published var data = [pattern]()
+    var newType : String = ""
+    var newDetail : String = ""
+    // allow view to monitor the change of this var and re-draw itself when changes happened.
+    @Published var newBPM : Double = 0
+    var newLength : String = ""
     
-    var practiceType = ["Any", "Rudiments", "Song", "Chops", "Groove"]
+    var practiceType = ["Any", "Rudiments", "Song", "Chops", "Groove", "Others"]
     
-    var practiceLengthOptions = ["15", "30", "45", "60", "75", "90", "115", "120", "more than 120 minutes"]
-    
+    var practiceLengthOptions = ["15", "30", "45", "60", "75", "90", "115", "120", "more than 120 minutes"] 
 }

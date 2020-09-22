@@ -7,68 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		207FAC1F250FE2B400A6145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC1E250FE2B400A6145B /* AppDelegate.swift */; };
-		207FAC21250FE2B400A6145B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC20250FE2B400A6145B /* SceneDelegate.swift */; };
-		207FAC24250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC22250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld */; };
-		207FAC26250FE2B400A6145B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC25250FE2B400A6145B /* ContentView.swift */; };
-		207FAC28250FE2B500A6145B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC27250FE2B500A6145B /* Assets.xcassets */; };
-		207FAC2B250FE2B500A6145B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC2A250FE2B500A6145B /* Preview Assets.xcassets */; };
-		207FAC2E250FE2B500A6145B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC2C250FE2B500A6145B /* LaunchScreen.storyboard */; };
-		207FAC39250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC38250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift */; };
-		207FAC44250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC43250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift */; };
+		207FAC6E250FE62800A6145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC6D250FE62800A6145B /* AppDelegate.swift */; };
+		207FAC70250FE62800A6145B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC6F250FE62800A6145B /* SceneDelegate.swift */; };
+		207FAC73250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC71250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodeld */; };
+		207FAC77250FE62A00A6145B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC76250FE62A00A6145B /* Assets.xcassets */; };
+		207FAC7A250FE62A00A6145B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC79250FE62A00A6145B /* Preview Assets.xcassets */; };
+		207FAC7D250FE62A00A6145B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207FAC7B250FE62A00A6145B /* LaunchScreen.storyboard */; };
+		207FAC88250FE62B00A6145B /* EnrouteCoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC87250FE62B00A6145B /* EnrouteCoreDataDemoTests.swift */; };
+		207FAC93250FE62B00A6145B /* EnrouteCoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC92250FE62B00A6145B /* EnrouteCoreDataDemoUITests.swift */; };
+		207FACA1250FE65E00A6145B /* FlightsEnrouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACA0250FE65E00A6145B /* FlightsEnrouteView.swift */; };
+		207FACA6250FE66800A6145B /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACA2250FE66700A6145B /* FilterFlights.swift */; };
+		207FACA7250FE66800A6145B /* FlightFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACA3250FE66700A6145B /* FlightFetcher.swift */; };
+		207FACA8250FE66800A6145B /* Airlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACA4250FE66700A6145B /* Airlines.swift */; };
+		207FACA9250FE66800A6145B /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACA5250FE66800A6145B /* Airports.swift */; };
+		207FACAB250FE68000A6145B /* FlightAware in Resources */ = {isa = PBXBuildFile; fileRef = 207FACAA250FE68000A6145B /* FlightAware */; };
+		207FACAD250FE68D00A6145B /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACAC250FE68D00A6145B /* FoundationExtensions.swift */; };
+		207FACB1250FE71000A6145B /* FAFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACB0250FE71000A6145B /* FAFlight.swift */; };
+		207FACB7250FE72A00A6145B /* FlightAware+Enroute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACB6250FE72A00A6145B /* FlightAware+Enroute.swift */; };
+		207FACB8250FE72A00A6145B /* FlightAware+AirportInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACB3250FE72A00A6145B /* FlightAware+AirportInfo.swift */; };
+		207FACB9250FE72A00A6145B /* FlightAwareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACB5250FE72A00A6145B /* FlightAwareRequest.swift */; };
+		207FACBA250FE72A00A6145B /* FlightAware+AirlineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACB4250FE72A00A6145B /* FlightAware+AirlineInfo.swift */; };
+		207FACBB250FE72A00A6145B /* FlightSimulationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FACB2250FE72900A6145B /* FlightSimulationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		207FAC35250FE2B500A6145B /* PBXContainerItemProxy */ = {
+		207FAC84250FE62B00A6145B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 207FAC13250FE2B400A6145B /* Project object */;
+			containerPortal = 207FAC62250FE62800A6145B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 207FAC1A250FE2B400A6145B;
+			remoteGlobalIDString = 207FAC69250FE62800A6145B;
 			remoteInfo = EnrouteCoreDataDemo;
 		};
-		207FAC40250FE2B500A6145B /* PBXContainerItemProxy */ = {
+		207FAC8F250FE62B00A6145B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 207FAC13250FE2B400A6145B /* Project object */;
+			containerPortal = 207FAC62250FE62800A6145B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 207FAC1A250FE2B400A6145B;
+			remoteGlobalIDString = 207FAC69250FE62800A6145B;
 			remoteInfo = EnrouteCoreDataDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		207FAC1B250FE2B400A6145B /* EnrouteCoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnrouteCoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		207FAC1E250FE2B400A6145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		207FAC20250FE2B400A6145B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		207FAC23250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnrouteCoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
-		207FAC25250FE2B400A6145B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		207FAC27250FE2B500A6145B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		207FAC2A250FE2B500A6145B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		207FAC2D250FE2B500A6145B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		207FAC2F250FE2B500A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		207FAC34250FE2B500A6145B /* EnrouteCoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnrouteCoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		207FAC38250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteCoreDataDemoTests.swift; sourceTree = "<group>"; };
-		207FAC3A250FE2B500A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		207FAC3F250FE2B500A6145B /* EnrouteCoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnrouteCoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		207FAC43250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteCoreDataDemoUITests.swift; sourceTree = "<group>"; };
-		207FAC45250FE2B500A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FAC6A250FE62800A6145B /* EnrouteCoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnrouteCoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FAC6D250FE62800A6145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		207FAC6F250FE62800A6145B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		207FAC72250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnrouteCoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
+		207FAC76250FE62A00A6145B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207FAC79250FE62A00A6145B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		207FAC7C250FE62A00A6145B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207FAC7E250FE62A00A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FAC83250FE62B00A6145B /* EnrouteCoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnrouteCoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FAC87250FE62B00A6145B /* EnrouteCoreDataDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteCoreDataDemoTests.swift; sourceTree = "<group>"; };
+		207FAC89250FE62B00A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FAC8E250FE62B00A6145B /* EnrouteCoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnrouteCoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FAC92250FE62B00A6145B /* EnrouteCoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteCoreDataDemoUITests.swift; sourceTree = "<group>"; };
+		207FAC94250FE62B00A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FACA0250FE65E00A6145B /* FlightsEnrouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsEnrouteView.swift; sourceTree = "<group>"; };
+		207FACA2250FE66700A6145B /* FilterFlights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
+		207FACA3250FE66700A6145B /* FlightFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFetcher.swift; sourceTree = "<group>"; };
+		207FACA4250FE66700A6145B /* Airlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airlines.swift; sourceTree = "<group>"; };
+		207FACA5250FE66800A6145B /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		207FACAA250FE68000A6145B /* FlightAware */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FlightAware; sourceTree = "<group>"; };
+		207FACAC250FE68D00A6145B /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		207FACB0250FE71000A6145B /* FAFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAFlight.swift; sourceTree = "<group>"; };
+		207FACB2250FE72900A6145B /* FlightSimulationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSimulationData.swift; sourceTree = "<group>"; };
+		207FACB3250FE72A00A6145B /* FlightAware+AirportInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirportInfo.swift"; sourceTree = "<group>"; };
+		207FACB4250FE72A00A6145B /* FlightAware+AirlineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirlineInfo.swift"; sourceTree = "<group>"; };
+		207FACB5250FE72A00A6145B /* FlightAwareRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAwareRequest.swift; sourceTree = "<group>"; };
+		207FACB6250FE72A00A6145B /* FlightAware+Enroute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightAware+Enroute.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		207FAC18250FE2B400A6145B /* Frameworks */ = {
+		207FAC67250FE62800A6145B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207FAC31250FE2B500A6145B /* Frameworks */ = {
+		207FAC80250FE62B00A6145B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207FAC3C250FE2B500A6145B /* Frameworks */ = {
+		207FAC8B250FE62B00A6145B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,63 +102,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		207FAC12250FE2B400A6145B = {
+		207FAC61250FE62800A6145B = {
 			isa = PBXGroup;
 			children = (
-				207FAC1D250FE2B400A6145B /* EnrouteCoreDataDemo */,
-				207FAC37250FE2B500A6145B /* EnrouteCoreDataDemoTests */,
-				207FAC42250FE2B500A6145B /* EnrouteCoreDataDemoUITests */,
-				207FAC1C250FE2B400A6145B /* Products */,
+				207FAC6C250FE62800A6145B /* EnrouteCoreDataDemo */,
+				207FAC86250FE62B00A6145B /* EnrouteCoreDataDemoTests */,
+				207FAC91250FE62B00A6145B /* EnrouteCoreDataDemoUITests */,
+				207FAC6B250FE62800A6145B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		207FAC1C250FE2B400A6145B /* Products */ = {
+		207FAC6B250FE62800A6145B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				207FAC1B250FE2B400A6145B /* EnrouteCoreDataDemo.app */,
-				207FAC34250FE2B500A6145B /* EnrouteCoreDataDemoTests.xctest */,
-				207FAC3F250FE2B500A6145B /* EnrouteCoreDataDemoUITests.xctest */,
+				207FAC6A250FE62800A6145B /* EnrouteCoreDataDemo.app */,
+				207FAC83250FE62B00A6145B /* EnrouteCoreDataDemoTests.xctest */,
+				207FAC8E250FE62B00A6145B /* EnrouteCoreDataDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		207FAC1D250FE2B400A6145B /* EnrouteCoreDataDemo */ = {
+		207FAC6C250FE62800A6145B /* EnrouteCoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
-				207FAC1E250FE2B400A6145B /* AppDelegate.swift */,
-				207FAC20250FE2B400A6145B /* SceneDelegate.swift */,
-				207FAC25250FE2B400A6145B /* ContentView.swift */,
-				207FAC27250FE2B500A6145B /* Assets.xcassets */,
-				207FAC2C250FE2B500A6145B /* LaunchScreen.storyboard */,
-				207FAC2F250FE2B500A6145B /* Info.plist */,
-				207FAC22250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld */,
-				207FAC29250FE2B500A6145B /* Preview Content */,
+				207FACA0250FE65E00A6145B /* FlightsEnrouteView.swift */,
+				207FAC6D250FE62800A6145B /* AppDelegate.swift */,
+				207FAC6F250FE62800A6145B /* SceneDelegate.swift */,
+				207FACA4250FE66700A6145B /* Airlines.swift */,
+				207FACA5250FE66800A6145B /* Airports.swift */,
+				207FACA2250FE66700A6145B /* FilterFlights.swift */,
+				207FACA3250FE66700A6145B /* FlightFetcher.swift */,
+				207FACB0250FE71000A6145B /* FAFlight.swift */,
+				207FACB4250FE72A00A6145B /* FlightAware+AirlineInfo.swift */,
+				207FACB3250FE72A00A6145B /* FlightAware+AirportInfo.swift */,
+				207FACB6250FE72A00A6145B /* FlightAware+Enroute.swift */,
+				207FACB5250FE72A00A6145B /* FlightAwareRequest.swift */,
+				207FACB2250FE72900A6145B /* FlightSimulationData.swift */,
+				207FACAA250FE68000A6145B /* FlightAware */,
+				207FAC76250FE62A00A6145B /* Assets.xcassets */,
+				207FACAC250FE68D00A6145B /* FoundationExtensions.swift */,
+				207FAC7B250FE62A00A6145B /* LaunchScreen.storyboard */,
+				207FAC7E250FE62A00A6145B /* Info.plist */,
+				207FAC71250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodeld */,
+				207FAC78250FE62A00A6145B /* Preview Content */,
 			);
 			path = EnrouteCoreDataDemo;
 			sourceTree = "<group>";
 		};
-		207FAC29250FE2B500A6145B /* Preview Content */ = {
+		207FAC78250FE62A00A6145B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				207FAC2A250FE2B500A6145B /* Preview Assets.xcassets */,
+				207FAC79250FE62A00A6145B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		207FAC37250FE2B500A6145B /* EnrouteCoreDataDemoTests */ = {
+		207FAC86250FE62B00A6145B /* EnrouteCoreDataDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				207FAC38250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift */,
-				207FAC3A250FE2B500A6145B /* Info.plist */,
+				207FAC87250FE62B00A6145B /* EnrouteCoreDataDemoTests.swift */,
+				207FAC89250FE62B00A6145B /* Info.plist */,
 			);
 			path = EnrouteCoreDataDemoTests;
 			sourceTree = "<group>";
 		};
-		207FAC42250FE2B500A6145B /* EnrouteCoreDataDemoUITests */ = {
+		207FAC91250FE62B00A6145B /* EnrouteCoreDataDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				207FAC43250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift */,
-				207FAC45250FE2B500A6145B /* Info.plist */,
+				207FAC92250FE62B00A6145B /* EnrouteCoreDataDemoUITests.swift */,
+				207FAC94250FE62B00A6145B /* Info.plist */,
 			);
 			path = EnrouteCoreDataDemoUITests;
 			sourceTree = "<group>";
@@ -142,13 +178,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */ = {
+		207FAC69250FE62800A6145B /* EnrouteCoreDataDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 207FAC48250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemo" */;
+			buildConfigurationList = 207FAC97250FE62B00A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemo" */;
 			buildPhases = (
-				207FAC17250FE2B400A6145B /* Sources */,
-				207FAC18250FE2B400A6145B /* Frameworks */,
-				207FAC19250FE2B400A6145B /* Resources */,
+				207FAC66250FE62800A6145B /* Sources */,
+				207FAC67250FE62800A6145B /* Frameworks */,
+				207FAC68250FE62800A6145B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,69 +192,69 @@
 			);
 			name = EnrouteCoreDataDemo;
 			productName = EnrouteCoreDataDemo;
-			productReference = 207FAC1B250FE2B400A6145B /* EnrouteCoreDataDemo.app */;
+			productReference = 207FAC6A250FE62800A6145B /* EnrouteCoreDataDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		207FAC33250FE2B500A6145B /* EnrouteCoreDataDemoTests */ = {
+		207FAC82250FE62B00A6145B /* EnrouteCoreDataDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 207FAC4B250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoTests" */;
+			buildConfigurationList = 207FAC9A250FE62B00A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoTests" */;
 			buildPhases = (
-				207FAC30250FE2B500A6145B /* Sources */,
-				207FAC31250FE2B500A6145B /* Frameworks */,
-				207FAC32250FE2B500A6145B /* Resources */,
+				207FAC7F250FE62B00A6145B /* Sources */,
+				207FAC80250FE62B00A6145B /* Frameworks */,
+				207FAC81250FE62B00A6145B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				207FAC36250FE2B500A6145B /* PBXTargetDependency */,
+				207FAC85250FE62B00A6145B /* PBXTargetDependency */,
 			);
 			name = EnrouteCoreDataDemoTests;
 			productName = EnrouteCoreDataDemoTests;
-			productReference = 207FAC34250FE2B500A6145B /* EnrouteCoreDataDemoTests.xctest */;
+			productReference = 207FAC83250FE62B00A6145B /* EnrouteCoreDataDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		207FAC3E250FE2B500A6145B /* EnrouteCoreDataDemoUITests */ = {
+		207FAC8D250FE62B00A6145B /* EnrouteCoreDataDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 207FAC4E250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoUITests" */;
+			buildConfigurationList = 207FAC9D250FE62B00A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoUITests" */;
 			buildPhases = (
-				207FAC3B250FE2B500A6145B /* Sources */,
-				207FAC3C250FE2B500A6145B /* Frameworks */,
-				207FAC3D250FE2B500A6145B /* Resources */,
+				207FAC8A250FE62B00A6145B /* Sources */,
+				207FAC8B250FE62B00A6145B /* Frameworks */,
+				207FAC8C250FE62B00A6145B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				207FAC41250FE2B500A6145B /* PBXTargetDependency */,
+				207FAC90250FE62B00A6145B /* PBXTargetDependency */,
 			);
 			name = EnrouteCoreDataDemoUITests;
 			productName = EnrouteCoreDataDemoUITests;
-			productReference = 207FAC3F250FE2B500A6145B /* EnrouteCoreDataDemoUITests.xctest */;
+			productReference = 207FAC8E250FE62B00A6145B /* EnrouteCoreDataDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		207FAC13250FE2B400A6145B /* Project object */ = {
+		207FAC62250FE62800A6145B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Yichi Zhang ";
 				TargetAttributes = {
-					207FAC1A250FE2B400A6145B = {
+					207FAC69250FE62800A6145B = {
 						CreatedOnToolsVersion = 11.7;
 					};
-					207FAC33250FE2B500A6145B = {
+					207FAC82250FE62B00A6145B = {
 						CreatedOnToolsVersion = 11.7;
-						TestTargetID = 207FAC1A250FE2B400A6145B;
+						TestTargetID = 207FAC69250FE62800A6145B;
 					};
-					207FAC3E250FE2B500A6145B = {
+					207FAC8D250FE62B00A6145B = {
 						CreatedOnToolsVersion = 11.7;
-						TestTargetID = 207FAC1A250FE2B400A6145B;
+						TestTargetID = 207FAC69250FE62800A6145B;
 					};
 				};
 			};
-			buildConfigurationList = 207FAC16250FE2B400A6145B /* Build configuration list for PBXProject "EnrouteCoreDataDemo" */;
+			buildConfigurationList = 207FAC65250FE62800A6145B /* Build configuration list for PBXProject "EnrouteCoreDataDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,37 +262,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 207FAC12250FE2B400A6145B;
-			productRefGroup = 207FAC1C250FE2B400A6145B /* Products */;
+			mainGroup = 207FAC61250FE62800A6145B;
+			productRefGroup = 207FAC6B250FE62800A6145B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */,
-				207FAC33250FE2B500A6145B /* EnrouteCoreDataDemoTests */,
-				207FAC3E250FE2B500A6145B /* EnrouteCoreDataDemoUITests */,
+				207FAC69250FE62800A6145B /* EnrouteCoreDataDemo */,
+				207FAC82250FE62B00A6145B /* EnrouteCoreDataDemoTests */,
+				207FAC8D250FE62B00A6145B /* EnrouteCoreDataDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		207FAC19250FE2B400A6145B /* Resources */ = {
+		207FAC68250FE62800A6145B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207FAC2E250FE2B500A6145B /* LaunchScreen.storyboard in Resources */,
-				207FAC2B250FE2B500A6145B /* Preview Assets.xcassets in Resources */,
-				207FAC28250FE2B500A6145B /* Assets.xcassets in Resources */,
+				207FAC7D250FE62A00A6145B /* LaunchScreen.storyboard in Resources */,
+				207FACAB250FE68000A6145B /* FlightAware in Resources */,
+				207FAC7A250FE62A00A6145B /* Preview Assets.xcassets in Resources */,
+				207FAC77250FE62A00A6145B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207FAC32250FE2B500A6145B /* Resources */ = {
+		207FAC81250FE62B00A6145B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207FAC3D250FE2B500A6145B /* Resources */ = {
+		207FAC8C250FE62B00A6145B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,53 +303,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		207FAC17250FE2B400A6145B /* Sources */ = {
+		207FAC66250FE62800A6145B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207FAC1F250FE2B400A6145B /* AppDelegate.swift in Sources */,
-				207FAC21250FE2B400A6145B /* SceneDelegate.swift in Sources */,
-				207FAC26250FE2B400A6145B /* ContentView.swift in Sources */,
-				207FAC24250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld in Sources */,
+				207FACB7250FE72A00A6145B /* FlightAware+Enroute.swift in Sources */,
+				207FACB1250FE71000A6145B /* FAFlight.swift in Sources */,
+				207FACB8250FE72A00A6145B /* FlightAware+AirportInfo.swift in Sources */,
+				207FACBA250FE72A00A6145B /* FlightAware+AirlineInfo.swift in Sources */,
+				207FAC6E250FE62800A6145B /* AppDelegate.swift in Sources */,
+				207FACA8250FE66800A6145B /* Airlines.swift in Sources */,
+				207FACA7250FE66800A6145B /* FlightFetcher.swift in Sources */,
+				207FACA6250FE66800A6145B /* FilterFlights.swift in Sources */,
+				207FACA1250FE65E00A6145B /* FlightsEnrouteView.swift in Sources */,
+				207FACBB250FE72A00A6145B /* FlightSimulationData.swift in Sources */,
+				207FACA9250FE66800A6145B /* Airports.swift in Sources */,
+				207FAC70250FE62800A6145B /* SceneDelegate.swift in Sources */,
+				207FACB9250FE72A00A6145B /* FlightAwareRequest.swift in Sources */,
+				207FAC73250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodeld in Sources */,
+				207FACAD250FE68D00A6145B /* FoundationExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207FAC30250FE2B500A6145B /* Sources */ = {
+		207FAC7F250FE62B00A6145B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207FAC39250FE2B500A6145B /* EnrouteCoreDataDemoTests.swift in Sources */,
+				207FAC88250FE62B00A6145B /* EnrouteCoreDataDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207FAC3B250FE2B500A6145B /* Sources */ = {
+		207FAC8A250FE62B00A6145B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207FAC44250FE2B500A6145B /* EnrouteCoreDataDemoUITests.swift in Sources */,
+				207FAC93250FE62B00A6145B /* EnrouteCoreDataDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		207FAC36250FE2B500A6145B /* PBXTargetDependency */ = {
+		207FAC85250FE62B00A6145B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */;
-			targetProxy = 207FAC35250FE2B500A6145B /* PBXContainerItemProxy */;
+			target = 207FAC69250FE62800A6145B /* EnrouteCoreDataDemo */;
+			targetProxy = 207FAC84250FE62B00A6145B /* PBXContainerItemProxy */;
 		};
-		207FAC41250FE2B500A6145B /* PBXTargetDependency */ = {
+		207FAC90250FE62B00A6145B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 207FAC1A250FE2B400A6145B /* EnrouteCoreDataDemo */;
-			targetProxy = 207FAC40250FE2B500A6145B /* PBXContainerItemProxy */;
+			target = 207FAC69250FE62800A6145B /* EnrouteCoreDataDemo */;
+			targetProxy = 207FAC8F250FE62B00A6145B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		207FAC2C250FE2B500A6145B /* LaunchScreen.storyboard */ = {
+		207FAC7B250FE62A00A6145B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				207FAC2D250FE2B500A6145B /* Base */,
+				207FAC7C250FE62A00A6145B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +368,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		207FAC46250FE2B500A6145B /* Debug */ = {
+		207FAC95250FE62B00A6145B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +428,7 @@
 			};
 			name = Debug;
 		};
-		207FAC47250FE2B500A6145B /* Release */ = {
+		207FAC96250FE62B00A6145B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +482,7 @@
 			};
 			name = Release;
 		};
-		207FAC49250FE2B500A6145B /* Debug */ = {
+		207FAC98250FE62B00A6145B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -454,7 +502,7 @@
 			};
 			name = Debug;
 		};
-		207FAC4A250FE2B500A6145B /* Release */ = {
+		207FAC99250FE62B00A6145B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -474,7 +522,7 @@
 			};
 			name = Release;
 		};
-		207FAC4C250FE2B500A6145B /* Debug */ = {
+		207FAC9B250FE62B00A6145B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,7 +544,7 @@
 			};
 			name = Debug;
 		};
-		207FAC4D250FE2B500A6145B /* Release */ = {
+		207FAC9C250FE62B00A6145B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,7 +566,7 @@
 			};
 			name = Release;
 		};
-		207FAC4F250FE2B500A6145B /* Debug */ = {
+		207FAC9E250FE62B00A6145B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,7 +586,7 @@
 			};
 			name = Debug;
 		};
-		207FAC50250FE2B500A6145B /* Release */ = {
+		207FAC9F250FE62B00A6145B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -561,38 +609,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		207FAC16250FE2B400A6145B /* Build configuration list for PBXProject "EnrouteCoreDataDemo" */ = {
+		207FAC65250FE62800A6145B /* Build configuration list for PBXProject "EnrouteCoreDataDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207FAC46250FE2B500A6145B /* Debug */,
-				207FAC47250FE2B500A6145B /* Release */,
+				207FAC95250FE62B00A6145B /* Debug */,
+				207FAC96250FE62B00A6145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		207FAC48250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemo" */ = {
+		207FAC97250FE62B00A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207FAC49250FE2B500A6145B /* Debug */,
-				207FAC4A250FE2B500A6145B /* Release */,
+				207FAC98250FE62B00A6145B /* Debug */,
+				207FAC99250FE62B00A6145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		207FAC4B250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoTests" */ = {
+		207FAC9A250FE62B00A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207FAC4C250FE2B500A6145B /* Debug */,
-				207FAC4D250FE2B500A6145B /* Release */,
+				207FAC9B250FE62B00A6145B /* Debug */,
+				207FAC9C250FE62B00A6145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		207FAC4E250FE2B500A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoUITests" */ = {
+		207FAC9D250FE62B00A6145B /* Build configuration list for PBXNativeTarget "EnrouteCoreDataDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207FAC4F250FE2B500A6145B /* Debug */,
-				207FAC50250FE2B500A6145B /* Release */,
+				207FAC9E250FE62B00A6145B /* Debug */,
+				207FAC9F250FE62B00A6145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -600,17 +648,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		207FAC22250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodeld */ = {
+		207FAC71250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				207FAC23250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodel */,
+				207FAC72250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodel */,
 			);
-			currentVersion = 207FAC23250FE2B400A6145B /* EnrouteCoreDataDemo.xcdatamodel */;
+			currentVersion = 207FAC72250FE62800A6145B /* EnrouteCoreDataDemo.xcdatamodel */;
 			path = EnrouteCoreDataDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 207FAC13250FE2B400A6145B /* Project object */;
+	rootObject = 207FAC62250FE62800A6145B /* Project object */;
 }

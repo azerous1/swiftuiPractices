@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206E19FC2512C621002572C1 /* practiceInputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E19FB2512C621002572C1 /* practiceInputForm.swift */; };
 		207FABD4250F1F3F00A6145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FABD3250F1F3F00A6145B /* AppDelegate.swift */; };
 		207FABD6250F1F3F00A6145B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FABD5250F1F3F00A6145B /* SceneDelegate.swift */; };
 		207FABD9250F1F3F00A6145B /* practice3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 207FABD7250F1F3F00A6145B /* practice3.xcdatamodeld */; };
@@ -17,10 +18,12 @@
 		207FABF9250F1F4100A6145B /* practice3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FABF8250F1F4100A6145B /* practice3UITests.swift */; };
 		207FAC07250F1F5700A6145B /* Cardifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC06250F1F5600A6145B /* Cardifty.swift */; };
 		207FAC09250F1F6000A6145B /* PracticeAppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC08250F1F6000A6145B /* PracticeAppVM.swift */; };
-		207FAC0B250F1F6400A6145B /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC0A250F1F6400A6145B /* Pattern.swift */; };
 		207FAC0D250F1F6800A6145B /* practiceDetailView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC0C250F1F6800A6145B /* practiceDetailView .swift */; };
-		207FAC0F250F1F7000A6145B /* patternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC0E250F1F7000A6145B /* patternView.swift */; };
+		207FAC0F250F1F7000A6145B /* practiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC0E250F1F7000A6145B /* practiceView.swift */; };
 		207FAC11250F1F9100A6145B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FAC10250F1F9100A6145B /* HomeView.swift */; };
+		2099374A25115F1A006A760C /* fondationExtension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099374925115F1A006A760C /* fondationExtension .swift */; };
+		2099374C251162D9006A760C /* DynamicTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099374B251162D9006A760C /* DynamicTextBox.swift */; };
+		2099374E2511639B006A760C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099374D2511639B006A760C /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206E19FB2512C621002572C1 /* practiceInputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceInputForm.swift; sourceTree = "<group>"; };
 		207FABD0250F1F3F00A6145B /* practice3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207FABD3250F1F3F00A6145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		207FABD5250F1F3F00A6145B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,10 +61,12 @@
 		207FABFA250F1F4100A6145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		207FAC06250F1F5600A6145B /* Cardifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cardifty.swift; path = ../../PracticeIt2/PracticeIt2/Cardifty.swift; sourceTree = "<group>"; };
 		207FAC08250F1F6000A6145B /* PracticeAppVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PracticeAppVM.swift; path = ../../PracticeIt/PracticeIt/PracticeAppVM.swift; sourceTree = "<group>"; };
-		207FAC0A250F1F6400A6145B /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = ../../PracticeIt/PracticeIt/Pattern.swift; sourceTree = "<group>"; };
 		207FAC0C250F1F6800A6145B /* practiceDetailView .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "practiceDetailView .swift"; path = "../../PracticeIt2/PracticeIt2/practiceDetailView .swift"; sourceTree = "<group>"; };
-		207FAC0E250F1F7000A6145B /* patternView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = patternView.swift; path = ../../PracticeIt/PracticeIt/patternView.swift; sourceTree = "<group>"; };
+		207FAC0E250F1F7000A6145B /* practiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = practiceView.swift; path = ../../PracticeIt/PracticeIt/practiceView.swift; sourceTree = "<group>"; };
 		207FAC10250F1F9100A6145B /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../PracticeIt/PracticeIt/HomeView.swift; sourceTree = "<group>"; };
+		2099374925115F1A006A760C /* fondationExtension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fondationExtension .swift"; sourceTree = "<group>"; };
+		2099374B251162D9006A760C /* DynamicTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextBox.swift; sourceTree = "<group>"; };
+		2099374D2511639B006A760C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +117,15 @@
 		207FABD2250F1F3F00A6145B /* practice3 */ = {
 			isa = PBXGroup;
 			children = (
+				2099374925115F1A006A760C /* fondationExtension .swift */,
 				207FABD3250F1F3F00A6145B /* AppDelegate.swift */,
-				207FABD5250F1F3F00A6145B /* SceneDelegate.swift */,
-				207FAC0A250F1F6400A6145B /* Pattern.swift */,
 				207FAC10250F1F9100A6145B /* HomeView.swift */,
+				207FABD5250F1F3F00A6145B /* SceneDelegate.swift */,
+				206E19FB2512C621002572C1 /* practiceInputForm.swift */,
 				207FAC08250F1F6000A6145B /* PracticeAppVM.swift */,
-				207FAC0E250F1F7000A6145B /* patternView.swift */,
+				207FAC0E250F1F7000A6145B /* practiceView.swift */,
 				207FAC0C250F1F6800A6145B /* practiceDetailView .swift */,
+				209937522511657C006A760C /* DynamicTextBox  */,
 				207FAC06250F1F5600A6145B /* Cardifty.swift */,
 				207FABDC250F1F4100A6145B /* Assets.xcassets */,
 				207FABE1250F1F4100A6145B /* LaunchScreen.storyboard */,
@@ -152,6 +160,15 @@
 				207FABFA250F1F4100A6145B /* Info.plist */,
 			);
 			path = practice3UITests;
+			sourceTree = "<group>";
+		};
+		209937522511657C006A760C /* DynamicTextBox  */ = {
+			isa = PBXGroup;
+			children = (
+				2099374B251162D9006A760C /* DynamicTextBox.swift */,
+				2099374D2511639B006A760C /* Coordinator.swift */,
+			);
+			path = "DynamicTextBox ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,13 +303,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				207FAC11250F1F9100A6145B /* HomeView.swift in Sources */,
+				206E19FC2512C621002572C1 /* practiceInputForm.swift in Sources */,
 				207FABD9250F1F3F00A6145B /* practice3.xcdatamodeld in Sources */,
+				2099374C251162D9006A760C /* DynamicTextBox.swift in Sources */,
 				207FAC07250F1F5700A6145B /* Cardifty.swift in Sources */,
 				207FABD4250F1F3F00A6145B /* AppDelegate.swift in Sources */,
 				207FABD6250F1F3F00A6145B /* SceneDelegate.swift in Sources */,
+				2099374E2511639B006A760C /* Coordinator.swift in Sources */,
 				207FAC0D250F1F6800A6145B /* practiceDetailView .swift in Sources */,
-				207FAC0F250F1F7000A6145B /* patternView.swift in Sources */,
-				207FAC0B250F1F6400A6145B /* Pattern.swift in Sources */,
+				2099374A25115F1A006A760C /* fondationExtension .swift in Sources */,
+				207FAC0F250F1F7000A6145B /* practiceView.swift in Sources */,
 				207FAC09250F1F6000A6145B /* PracticeAppVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
